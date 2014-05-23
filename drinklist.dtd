@@ -1,0 +1,13 @@
+<!ENTITY ouml "&#246;">
+<!ENTITY Ouml "&#214;">
+<!ENTITY brkbar "&#166;">
+<!ENTITY ccedil "&#231;">
+
+<!ELEMENT drinklist (drink*)>
+<!ELEMENT drink (name, ingredience+, author, description)>
+<!ELEMENT name			(#PCDATA)>
+<!ELEMENT ingredience	(#PCDATA)>
+<!ELEMENT author		(#PCDATA)>
+<!ELEMENT description	(#PCDATA)>
+
+<!ATTLIST ingredience amount unit CDATA #REQUIRED unit #REQUIRED>
